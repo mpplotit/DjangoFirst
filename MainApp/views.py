@@ -5,7 +5,7 @@ from MainApp.models import Item
 surname = 'Иванов'
 firstname = 'Иван'
 patronymic = 'Иванович'
-phone = '+7(918)777-77-77'
+phone = '+7(918)888-88-88'
 email = 'XXX@mail.ru'
 
 # items = [
