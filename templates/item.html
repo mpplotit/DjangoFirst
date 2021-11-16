@@ -1,0 +1,7 @@
+{%extends 'base.html'%}
+{% block content %}
+Наименование товара: <b>{{item.name}}</b><br>
+Количество: <b>{{item.count|default:"Товар отсутствует"}}</b><br>
+Бренд: <b>{{item.brand}}</b><br>
+<a href="/items">Back</a>
+{% endblock %}
